@@ -1,0 +1,22 @@
+detector,entity,TP,FP,FN,precision,precision_ci,recall,recall_ci,f1
+Presidio (default),CREDIT_CARD,176,2,106,0.989,"[0.96, 1.00]",0.624,"[0.57, 0.68]",0.765
+Presidio (default),EMAIL_ADDRESS,234,0,0,1.0,"[0.98, 1.00]",1.0,"[0.98, 1.00]",1.0
+Presidio (default),IN_AADHAAR,0,0,77,,"[nan, nan]",0.0,"[0.00, 0.05]",
+Presidio (default),IN_PAN,0,0,65,,"[nan, nan]",0.0,"[0.00, 0.06]",
+Presidio (default),PERSON,381,17,64,0.957,"[0.93, 0.97]",0.856,"[0.82, 0.89]",0.904
+Presidio (default),PHONE_NUMBER,232,41,29,0.85,"[0.80, 0.89]",0.889,"[0.84, 0.92]",0.869
+Presidio (default),US_SSN,99,0,0,1.0,"[0.96, 1.00]",1.0,"[0.96, 1.00]",1.0
+Presidio + India recognizers,CREDIT_CARD,176,2,106,0.989,"[0.96, 1.00]",0.624,"[0.57, 0.68]",0.765
+Presidio + India recognizers,EMAIL_ADDRESS,234,0,0,1.0,"[0.98, 1.00]",1.0,"[0.98, 1.00]",1.0
+Presidio + India recognizers,IN_AADHAAR,77,9,0,0.895,"[0.81, 0.94]",1.0,"[0.95, 1.00]",0.945
+Presidio + India recognizers,IN_PAN,65,149,0,0.304,"[0.25, 0.37]",1.0,"[0.94, 1.00]",0.466
+Presidio + India recognizers,PERSON,381,17,64,0.957,"[0.93, 0.97]",0.856,"[0.82, 0.89]",0.904
+Presidio + India recognizers,PHONE_NUMBER,232,41,29,0.85,"[0.80, 0.89]",0.889,"[0.84, 0.92]",0.869
+Presidio + India recognizers,US_SSN,99,0,0,1.0,"[0.96, 1.00]",1.0,"[0.96, 1.00]",1.0
+Regex baseline,CREDIT_CARD,282,59,0,0.827,"[0.78, 0.86]",1.0,"[0.99, 1.00]",0.905
+Regex baseline,EMAIL_ADDRESS,234,0,0,1.0,"[0.98, 1.00]",1.0,"[0.98, 1.00]",1.0
+Regex baseline,IN_AADHAAR,77,77,0,0.5,"[0.42, 0.58]",1.0,"[0.95, 1.00]",0.667
+Regex baseline,IN_PAN,65,51,0,0.56,"[0.47, 0.65]",1.0,"[0.94, 1.00]",0.718
+Regex baseline,PERSON,445,0,0,1.0,"[0.99, 1.00]",1.0,"[0.99, 1.00]",1.0
+Regex baseline,PHONE_NUMBER,223,361,38,0.382,"[0.34, 0.42]",0.854,"[0.81, 0.89]",0.528
+Regex baseline,US_SSN,99,0,0,1.0,"[0.96, 1.00]",1.0,"[0.96, 1.00]",1.0

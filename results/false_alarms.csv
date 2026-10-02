@@ -1,0 +1,4 @@
+detector,false_alarms,pii_free_sentences,most_common
+Regex baseline,235,300,"IN_AADHAAR:77, CREDIT_CARD:59, IN_PAN:51"
+Presidio (default),24,300,"PHONE_NUMBER:16, PERSON:6, CREDIT_CARD:2"
+Presidio + India recognizers,151,300,"IN_PAN:118, PHONE_NUMBER:16, IN_AADHAAR:9"
